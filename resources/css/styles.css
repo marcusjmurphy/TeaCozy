@@ -1,0 +1,160 @@
+/* -- Universal Styles -- */
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+h2, h3, h4 {
+    margin: 0;
+    padding: 10px;
+    font-weight: bold;
+    display: block;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.17rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*-- Header Styles -- */
+
+header {
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    width: 100%;  
+    z-index: 100;
+    background-color: black;
+    opacity: 0.9;
+}
+
+header .logo {
+    float: left;
+    padding: 0.43185rem 0.455rem;
+}
+
+header li {
+    float: right;
+    padding: 0 .455rem;
+}
+
+header li a {
+    display: inline-block;
+}
+
+header a:link {
+    color: seashell;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+header img {
+    height: 2.1275rem;
+}
+
+.menu {
+    float: right;
+    line-height: 69px;
+}
+
+/*-- Main Styles -- */
+
+main {
+    padding-top: 3.25rem;
+    width: 1200px;
+    margin: auto;
+    opacity: 0.9;
+}
+
+/*-- Mission Styles -- */
+
+#mission {
+    background-image: url("../images/img-mission-background.jpg");
+    height: 700px;
+    padding-top: 3.25rem;
+}
+
+.content {
+    background-color: black;
+    width: 100%;
+}
+
+/*-- Tea Listing --*/
+#tealist {
+    padding-top: 3.25rem;
+    width: 1000px;
+    height: 760px;
+    margin: auto;
+}
+
+.item {
+    padding: .25rem;
+}
+
+.item img {
+    height: 9.0909rem;
+    margin: .4545rem;
+    display: block;
+}
+
+.item span {
+    font-weight: bold;
+    text-align: center;
+}
+
+/*-- Locations --*/
+#locations {
+    background-image: url("../images/img-locations-background.jpg");
+    height: 500px;
+    padding-top: 3.25rem;
+}
+
+.location {
+    background-color: black;
+    width: 300px;
+    padding: 0.4545rem;
+    margin: 0.225rem 0.9090rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.location p {
+    display: block;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+}
+
+/*-- Contact --*/
+#contact {
+    height: 200px;
+}
+
+#contact h5 {
+    margin-block-start: 1.67rem;
+    margin-block-end: 1.67rem;
+}
+
+/*-- Footer --*/
+footer {
+    text-align: left;
+    padding-left: .9090rem;
+}
